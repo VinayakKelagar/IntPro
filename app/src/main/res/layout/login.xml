@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FD0404"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/bloodlogo"
+    android:layout_gravity="center"
+    android:layout_marginTop="150dp"
+    android:id="@+id/img_login_logo"
+    ></ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobileno"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:drawablePadding="5dp"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/et_login_no"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_login_pass"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:id="@+id/btn_login_login"
+        ></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NewUser? Register"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#F8F1F1"
+        android:id="@+id/tv_login_register"
+        ></TextView>
+
+
+
+
+
+
+</LinearLayout>
